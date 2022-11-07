@@ -1,5 +1,5 @@
 # DEPLOY 👀
-(https://splendorous-starburst-1e5e14.netlify.app/todo)
+✔ https://splendorous-starburst-1e5e14.netlify.app/
 
 # Getting Started with Create React App
 
