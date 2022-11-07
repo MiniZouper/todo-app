@@ -4,8 +4,7 @@ import { TodoList } from "./TodoList";
 import { useTodo } from "../hooks/useTodo";
 import "./AppP.css";
 import { updateProfile, signOut } from "firebase/auth";
-import { auth } from "../login-firebase/firebase";
-import Home from "../login-firebase/Home/Home";
+import { auth, signInWithEmailAndPassword } from "../login-firebase/firebase";
 
 export function AppPrincipal() {
   const [userName, setUserName] = useState("");
@@ -37,13 +36,14 @@ export function AppPrincipal() {
   } = useTodo();
   return (
     <div className="AppPrincipal">
-      
       <div className="card-to-do">
-      <div>
-        <button onClick={logOut} className="logOut">Salir</button>
-      </div>
+        <div>
+          <button onClick={logOut} className="logOut">
+            Salir
+          </button>
+        </div>
         <h1 className="lista">
-          Tareas de: <span className="user-list">{userName}</span>{" "}
+          Tareas de: <span className="user-list"> {userName}</span>{" "}
         </h1>
         <div className="counter-todos">
           <h3>
