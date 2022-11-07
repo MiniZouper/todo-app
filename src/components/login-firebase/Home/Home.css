@@ -1,0 +1,36 @@
+.container {
+  height: 100%;
+  min-height: 100vh;
+  width: 100%;
+  background: linear-gradient(to right, #65F4CD, #494FC1);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.innertbox {
+  min-width: 480px;
+  height: fit-content;
+  width: fit-content;
+  background-color: white;
+  box-shadow: 1px 1px 10px 1px rgba(0, 0, 0, 0.5);
+  padding: 30px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.footer {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.links {
+  color: #494FC1;
+  font-size: 2rem;
+  padding: 10px 10px;
+  text-decoration: none;
+  text-align: center;
+}

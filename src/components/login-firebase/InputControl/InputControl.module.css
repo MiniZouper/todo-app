@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&family=Roboto:wght@500&display=swap');
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Poppins;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.container label {
+  font-size: 1rem;
+  font-weight: 500;
+  color: rgb(66, 64, 64);
+  font-family: Roboto;
+}
+
+.container input {
+  border-radius: 5px;
+  border: 1px solid #eeee;
+  outline: none;
+  padding: 10px 15px;
+  color: #000;
+  font-family: Roboto;
+  font-size: 1rem;
+
+}
+
+.container input:hover {
+  border-color: #eee;
+}
+
+.container input:focus {
+  border-color: #494FC1;
+}
