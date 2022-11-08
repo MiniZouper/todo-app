@@ -1,5 +1,5 @@
 # DEPLOY 👀
-✔ https://splendorous-starburst-1e5e14.netlify.app/
+✔ https://todo-app-zouper2.netlify.app/
 
 
 
